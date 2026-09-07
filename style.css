@@ -1,3 +1,24 @@
 body {
     background-color: #1E1E24;
     font-family: sans-serif;
+    }
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+}
+
+h4 {
+    color: white;
+    font-size: 15px;
+}
