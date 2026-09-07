@@ -1,6 +1,9 @@
 body {
     background-color: #1E1E24;
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     }
 
 h1 {
