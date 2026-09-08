@@ -52,3 +52,19 @@ h10 {
     color: white;
     font-size: 25px;
 }
+
+@keyframes simpeleFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.vloeiend-verschijnen {
+    opacity: 0;
+    animation: simpeleFadeIn 2s ease-out forwards;
+}
