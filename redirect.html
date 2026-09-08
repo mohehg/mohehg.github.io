@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <script>
-    const githubButton = document.getElementById('githubRedirectBtn');
-    
-    githubButton.addEventListener('click', function() {
-        window.location.href = 'redirect.html';
-    });
-</script>
+    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website maken: Introductie</title>
@@ -19,6 +13,15 @@
         <h3><center>Wij hebben een hoofdvraag en een paar deelvragen bedacht.</center></h3>
         <h4><center>We gaan de hoofdvraag samen met jullie langs en zullen hem zo goed mogelijk beantwoorden.</center></h4>
     </div>
+
+<script>
+    const githubButton = document.getElementById('githubRedirectBtn');
+    
+    githubButton.addEventListener('click', function() {
+        window.location.href = 'redirect.html';
+    });
+</script>
+    
 
 </body>
 </html>
