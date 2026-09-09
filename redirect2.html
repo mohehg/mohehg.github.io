@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button> 
-    <button class="redirect-btn" onclick="window.history.back();">Vorige stap</button>
     <title>Website maken: deelvraag 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button> 
+    <button class="redirect-btn" onclick="window.history.back();">Vorige stap</button>
+
     <div style="text-align: center;">
 <br />
 <h3 class="vloeiend-verschijnen"><b>Deelvraag 1: Welke programmeertalen en tools worden vaak gebruikt bij het maken van een simpele website?</b></h3>
@@ -26,12 +28,22 @@
 <p class="vloeiend-verschijnen"><b>Met deze drie programmeertalen kan je een simpele website maken zoals deze.</b></p>
     </div>
 
-    <script>
+<script>
+
     const githubButton = document.getElementById('githubRedirectBtn');
-    
+
     githubButton.addEventListener('click', function() {
-        window.location.href = 'redirect3.html';
+
+    document.body.classList.add('fade-out');
+
+    setTimeout(function() {
+
+    window.location.href = 'redirect3.html';
+
+        }, 1000);
+
     });
+
 </script>
 
 </body>
