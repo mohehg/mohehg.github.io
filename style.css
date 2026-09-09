@@ -23,16 +23,6 @@ h4 {
     font-size: 25px;
 }
 
-h5 {
-    color: white;
-    font-size: 25px;
-}
-
-h6 {
-    color: white;
-    font-size: 25px;
-}
-
 @keyframes simpeleFadeIn {
     from {
         opacity: 0;
