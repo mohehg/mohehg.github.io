@@ -27,6 +27,12 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
 p.vloeiend-verschijnen {
     font-family: "Inter", sans-serif;
     font-size: 25px;
