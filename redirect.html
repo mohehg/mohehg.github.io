@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button>
-    <button class="redirect-btn" onclick="window.history.back();">Vorige stap</button>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website maken: hoofdvraag</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button>
+    <button class="redirect-btn" onclick="window.history.back();">Vorige stap</button>
 
     <div style="text-align: center;">
 <br />
@@ -28,11 +29,21 @@
     </div>
 
 <script>
+
     const githubButton = document.getElementById('githubRedirectBtn');
-    
+
     githubButton.addEventListener('click', function() {
-        window.location.href = 'redirect2.html';
+
+    document.body.classList.add('fade-out');
+
+    setTimeout(function() {
+
+    window.location.href = 'redirect2.html';
+
+        }, 1000);
+
     });
+
 </script>
     
 
