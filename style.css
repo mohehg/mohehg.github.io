@@ -33,41 +33,6 @@ h6 {
     font-size: 25px;
 }
 
-h7 {
-    color: white;
-    font-size: 25px;
-}
-
-h8 {
-    color: white;
-    font-size: 25px;
-}
-
-h9 {
-    color: white;
-    font-size: 25px;
-}
-
-h10 {
-    color: white;
-    font-size: 25px;
-}
-
-h11 {
-    color: white;
-    font-size: 25px;
-}
-
-h12 {
-    color: white;
-    font-size: 25px;
-}
-
-h13 {
-    color: white;
-    font-size: 25px;
-}
-
 @keyframes simpeleFadeIn {
     from {
         opacity: 0;
