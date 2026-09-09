@@ -51,6 +51,20 @@ p.vloeiend-verschijnen {
     }
 }
 
+.fade-out {
+    animation: fadeOut 0.8s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 .vloeiend-verschijnen {
     opacity: 0;
     animation: simpeleFadeIn 2s ease-out forwards;
