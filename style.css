@@ -53,6 +53,21 @@ h10 {
     font-size: 25px;
 }
 
+h11 {
+    color: white;
+    font-size: 25px;
+}
+
+h12 {
+    color: white;
+    font-size: 25px;
+}
+
+h13 {
+    color: white;
+    font-size: 25px;
+}
+
 @keyframes simpeleFadeIn {
     from {
         opacity: 0;
