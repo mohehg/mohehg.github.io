@@ -49,3 +49,23 @@ p.vloeiend-verschijnen {
     opacity: 0;
     animation: simpeleFadeIn 2s ease-out forwards;
 }
+
+.redirect-btn {
+    background-color: white;
+    color: #1E1E24;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.redirect-btn:hover {
+    background-color: #1E1E24;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px white;
+}
