@@ -2,11 +2,12 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button>
     <title>Hoe bouw je een website? PWS 4 MAVO</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <button id="githubRedirectBtn" class="redirect-btn">Volgende stap</button>
 
 <div style="text-align: center;">
 <h1 class="vloeiend-verschijnen"><b>Website bouwen, hoe doe je dat precies?<b/></h1>
@@ -20,13 +21,23 @@
      style="width: 850px; height: auto;">
 </div>
 
-<script>
-    const githubButton = document.getElementById('githubRedirectBtn');
-    
-    githubButton.addEventListener('click', function() {
+    <script>
+
+        const githubButton = document.getElementById('githubRedirectBtn');
+
+        githubButton.addEventListener('click', function() {
+
+        document.body.classList.add('fade-out');
+
+        setTimeout(function() {
+
         window.location.href = 'redirect.html';
-    });
-</script>
+
+            }, 1000);
+
+        });
+
+    </script>
 
 </body>
 </html>
