@@ -1,6 +1,6 @@
 body {
     background-color: #1E1E24;
-  font-family: "Inter", sans-serif;
+  font-family: "Valley Sans", sans-serif;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h6 {
 }
 
 p.vloeiend-verschijnen {
-    font-family: "Inter", sans-serif;
+    font-family: "Valley Sans", sans-serif;
     font-size: 25px;
     color: white;
     font-weight: bold;
@@ -79,7 +79,7 @@ p.vloeiend-verschijnen {
 .redirect-btn {
     background-color: white;
     color: #1E1E24;
-    font-family: "Inter", sans-serif;
+    font-family: "Valley Sans", sans-serif;
     font-size: 18px;
     font-weight: bold;
     padding: 12px 25px;
@@ -108,7 +108,7 @@ p.vloeiend-verschijnen {
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+    font-family: "Valley Sans", sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-right: 35px;
