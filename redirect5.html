@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website maken: einde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="redirect-btn" onclick="window.history.back();">Vorige</button>
+
+    <div style="text-align: center;">
+        <h6 id="pageText" class="vloeiend-verschijnen"><b></b></h6>
+        </b></p>
+    </div>
+
+    <script>
+    window.addEventListener('pageshow', function() {
+        document.body.classList.remove('fade-out');
+    });
+</script>
+
+</body>
+</html>

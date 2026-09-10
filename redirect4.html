@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website maken: deelvraag 2</title>
+    <title>Website maken: deelvraag 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,6 +18,24 @@
         <p id="pageText" class="vloeiend-verschijnen"><b>Controleer of je website goed werkt op verschillende apparaten en browsers. Test je website op verschillende schermformaten en browsers om te zien of alles correct wordt weergegeven.</b></p>
         </b></p>
     </div>
+
+       <script>
+
+    const githubButton = document.getElementById('githubRedirectBtn');
+
+    githubButton.addEventListener('click', function() {
+
+    document.body.classList.add('fade-out');
+
+    setTimeout(function() {
+
+    window.location.href = 'redirect5.html';
+
+        }, 1000);
+
+    });
+
+</script>
 
     <script>
     window.addEventListener('pageshow', function() {
