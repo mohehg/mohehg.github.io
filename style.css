@@ -95,3 +95,33 @@ p.vloeiend-verschijnen {
     transform: scale(1.1);
     box-shadow: 0 0 20px white;
 }
+
+.navigatiebalk {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.navigatiebalk a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 35px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.navigatiebalk a:hover {
+    transform: translateY(-2px);
+    text-decoration: underline;
+}
+
+.navigatiebalk a.actieve-pagina {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

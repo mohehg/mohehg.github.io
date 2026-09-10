@@ -8,6 +8,15 @@
 </head>
 <body>
 
+    <nav class="navigatiebalk">
+    <a href="index.html">Introductie</a>
+    <a href="hoofdvraag.html">Hoofdvraag</a>
+    <a href="deelvraag1.html">Deelvraag 1</a>
+    <a href="deelvraag2.html">Deelvraag 2</a>
+    <a href="deelvraag3.html">Deelvraag 3</a>
+    <a href="einde.html">Einde</a>
+</nav>
+
     <button id="githubRedirectBtn" class="redirect-btn">Volgende</button>
     <button class="redirect-btn" onclick="window.history.back();">Vorige</button>
 
@@ -47,6 +56,24 @@
     window.addEventListener('pageshow', function() {
         document.body.classList.remove('fade-out');
     });
+</script>
+
+<script>
+
+    const huidigePagina = window.location.pathname.split("/").pop();
+
+    const navigatieLinks = document.querySelectorAll(".navigatiebalk a");
+
+    navigatieLinks.forEach(function(link) {
+
+        const linkPagina = link.getAttribute("href");
+
+        if (linkPagina === huidigePagina) {
+            link.classList.add("actieve-pagina");
+        }
+
+    });
+
 </script>
 
 </body>
