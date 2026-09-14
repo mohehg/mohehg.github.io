@@ -93,7 +93,7 @@ p.vloeiend-verschijnen {
     padding: 12px 25px;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: none;
     transition: all 0.3s ease;
 }
 
@@ -136,6 +136,9 @@ p.vloeiend-verschijnen {
 
 .custom-cursor {
     position: fixed;
+    left: 0;
+    top: 0;
+
     pointer-events: none;
     color: #00d9ff;
     font-size: 28px;
@@ -150,8 +153,6 @@ p.vloeiend-verschijnen {
 
 .click-line {
     position: fixed;
-    left: 0;
-    top: 0;
     width: 20px;
     height: 3px;
     background: #00d9ff;
