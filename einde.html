@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<div class="custom-cursor">&lt;&gt;</div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -50,6 +51,39 @@
 
     });
 
+</script>
+
+<script>
+const cursor = document.querySelector(".custom-cursor");
+
+document.addEventListener("mousemove", function(event) {
+    cursor.style.left = event.clientX + "px";
+    cursor.style.top = event.clientY + "px";
+});
+</script>
+
+<script>
+document.addEventListener("click", function(event) {
+
+    for (let i = 0; i < 5; i++) {
+
+        const line = document.createElement("span");
+
+        line.classList.add("click-line");
+
+        line.style.left = event.clientX + "px";
+        line.style.top = event.clientY + "px";
+
+        line.style.setProperty("--angle", (i * 72) + "deg");
+
+        document.body.appendChild(line);
+
+        setTimeout(function() {
+            line.remove();
+        }, 500);
+    }
+
+});
 </script>
 
 </body>
