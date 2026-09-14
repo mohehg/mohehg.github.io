@@ -1,5 +1,4 @@
 body {
-    cursor: none;
     background-color: #1E1E24;
     font-family: "Valley Sans", sans-serif;
     
@@ -8,6 +7,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    cursor: none;
 }
 
 h1 {
