@@ -134,6 +134,12 @@ p.vloeiend-verschijnen {
     text-underline-offset: 6px;
 }
 
+html,
+body,
+body * {
+    cursor: none !important;
+}
+
 .custom-cursor {
     position: fixed;
     left: 0;
