@@ -150,6 +150,8 @@ p.vloeiend-verschijnen {
 
 .click-line {
     position: fixed;
+    left: 0;
+    top: 0;
     width: 20px;
     height: 3px;
     background: #00d9ff;
