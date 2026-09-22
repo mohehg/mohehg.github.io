@@ -1,13 +1,6 @@
 body {
     background-color: #1E1E24;
     font-family: "Valley Sans", sans-serif;
-    
-    background-image: url("https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2022/10/shutterstock_577183882.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
     cursor: none;
 }
 
